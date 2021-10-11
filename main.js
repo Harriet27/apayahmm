@@ -188,9 +188,19 @@ object: deskripsi sebuah data
 // console.log(true || false); // false OR true
 // console.log(true && false); // true AND false
 
-function hoursToSeconds(hour) {
-    return hour * 3600;
-}
-console.log(hoursToSeconds(2));
-console.log(hoursToSeconds(10));
-console.log(hoursToSeconds(24));
+// function hoursToSeconds(hour) {
+//     return hour * 3600;
+// }
+// console.log(hoursToSeconds(2));
+// console.log(hoursToSeconds(10));
+// console.log(hoursToSeconds(24));
+
+// onclick using jquery
+$("#jquery").click(function() {
+    alert("Hello World (jquery)");
+});
+
+// onclick using vanilla
+document.getElementById("vanilla").addEventListener("click", function() {
+    alert("Hello World (vanilla)");
+});
